@@ -11,3 +11,6 @@ public class AirBnbApplication {
 	}
 
 }
+/*
+This application is clone of Air BnB Company
+ */
