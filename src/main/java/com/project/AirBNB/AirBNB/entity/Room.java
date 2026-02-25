@@ -23,7 +23,7 @@ public class Room {
     Many-to-one relationship as one hotel can have many type of rooms type.
     Room is master and Hotel is slave
      */
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "hotel_id", nullable = false)
     private Hotel hotel;
 
