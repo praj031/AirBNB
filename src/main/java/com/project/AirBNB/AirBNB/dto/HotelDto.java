@@ -1,7 +1,19 @@
 package com.project.AirBNB.AirBNB.dto;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.project.AirBNB.AirBNB.entity.HotelContactInfo;
 import lombok.Data;
+
+
+@JsonPropertyOrder({
+        "id",
+        "name",
+        "city",
+        "photos",
+        "amenities",
+        "contactInfo",
+        "active"
+})
 
 @Data
 public class HotelDto {
