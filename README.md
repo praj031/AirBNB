@@ -14,3 +14,5 @@ Schema Diagram
 Swagger Link : http://localhost:7070/api/v1/swagger-ui/index.html#/
 api-docs : http://localhost:7070/api/v1/v3/api-docs
 
+****Postman Documentations**
+Link : https://documenter.getpostman.com/view/50390415/2sBXcHiyjD
