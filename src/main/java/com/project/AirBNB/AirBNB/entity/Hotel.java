@@ -1,6 +1,7 @@
 package com.project.AirBNB.AirBNB.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.project.AirBNB.AirBNB.security.entity.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -43,7 +44,7 @@ public class Hotel {
     @Column(nullable = false)
     private Boolean active;
 
-    @ManyToOne
+    @ManyToOne(optional = false, fetch = FetchType.LAZY)
     private User owner;
 
     @OneToMany(mappedBy = "hotel")

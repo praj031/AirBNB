@@ -1,7 +1,7 @@
 package com.project.AirBNB.AirBNB.dto;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.project.AirBNB.AirBNB.entity.User;
+import com.project.AirBNB.AirBNB.security.entity.User;
 import com.project.AirBNB.AirBNB.entity.enums.Gender;
 import lombok.Data;
 

@@ -1,6 +1,7 @@
 package com.project.AirBNB.AirBNB.entity;
 
 import com.project.AirBNB.AirBNB.entity.enums.BookingStatus;
+import com.project.AirBNB.AirBNB.security.entity.User;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
